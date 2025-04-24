@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Perros y Gatos</title>
+    <link rel="stylesheet" href="tarea.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Galeria de Perros y Gatos</h1>
+        <img id="main-img" src="Perro.jpeg" alt="Main Image" class="main-image" />
+        
+        <div class="buttons">
+            <button class="api-button" data-api="dog">Perro</button>
+            <button class="api-button" data-api="cat">Gato</button>
+            <button id="fav-button">Favorito</button>
+        </div>
+        
+        <img id="fav-img" src="Perro.jpeg" alt="Favorite Image" class="favorite-image" />
+        <div id="notification" class="notification">
+            <h2>Añadido a Favoritos</h2>
+        </div>
+        <h2>Mis Favoritos</h2>
+        <div id="main-images" class="image-gallery"></div>
+    </div>
+    <script src="tarea.js"></script>
+</body>
+</html>
