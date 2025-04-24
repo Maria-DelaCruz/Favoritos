@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function setImage(api) {
         const headers = new Headers({
             "Content-Type": "application/json",
-            "x-api-key": "live_XT15bTtHGiAw5sPQuFffC2jjAl46ypBJQ8DQ0ZibpgciZ5E5SVkSoG8s8sxDS2j3",
+            "x-api-key": "le3d85c22-149d-40df-a372-9f601ba54b55",
         });
 
         fetch(
